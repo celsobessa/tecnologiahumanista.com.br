@@ -57,10 +57,18 @@
         @layer kelp.base {
           :where(:root) {
             --font-primary: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, ui-sans-serif, system-ui, sans-serif;
-            --font-secondary: 'Andada Pro', Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
-              font-weight: normal;
           }
         }
+		@layer kelp.theme {
+
+	:where(:root) {
+
+		/* Fonts */
+		--font-secondary: 'Andada Pro', Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
+
+	}
+
+}
     </style>
     <script src="https://cdn.jsdelivr.net/npm/kelpui@0/js/dark-mode-auto.js"></script>
 </head>
